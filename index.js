@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const url = "mongodb://0.0.0.0:27017";
+const url = "mongodb+srv://vineshryapak1234:Qtf5g8wcwkp9M3x5@cluster0.nbxcs6j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const dbName = "ems24";
 
 const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
